@@ -161,6 +161,7 @@ button[type=submit]:hover i {
 /* CUSTOM ELEMENTS */
 .color-dark {
   background-color: #282828;
+  background: pink;
 }
 .color-dark .left-side ul {
   width: 100vh;
@@ -298,6 +299,7 @@ moe .color-dark .left-side ul li a:hover {
   right: calc(-100% - 200px);
   bottom: 0;
   background: #282828;
+  background: pink;
   z-index: 99;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -315,6 +317,7 @@ moe .color-dark .left-side ul li a:hover {
   border-style: solid;
   border-width: 0 200px 100vh 0;
   border-color: transparent #282828 transparent transparent;
+  border-color: transparent pink transparent transparent;
   position: absolute;
   left: -200px;
   top: 0;
@@ -333,6 +336,7 @@ moe .color-dark .left-side ul li a:hover {
   width: 100vw;
   height: 100vh;
   background: #282828;
+  background: pink;
   opacity: 1;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -360,6 +364,7 @@ moe .color-dark .left-side ul li a:hover {
   border-style: solid;
   border-width: 0 200px 100vh 0;
   border-color: transparent #282828 transparent transparent;
+  border-color: transparent pink transparent transparent;
   position: absolute;
   left: -200px;
   top: 0;
@@ -371,6 +376,7 @@ moe .color-dark .left-side ul li a:hover {
   border-style: solid;
   border-width: 100vh 0 0 200px;
   border-color: transparent transparent transparent #282828;
+  border-color: transparent transparent transparent pink;
   position: absolute;
   right: -200px;
   top: 0;
@@ -390,7 +396,7 @@ moe .color-dark .left-side ul li a:hover {
   animation: fadeInUp ease 0.6s;
 }
 .preloader .inner .logo img {
-  height: 50px;
+  height: 150px;
 }
 .preloader .inner .percentage {
   width: 100%;
@@ -398,6 +404,7 @@ moe .color-dark .left-side ul li a:hover {
   line-height: 1;
   font-weight: 800;
   color: #fff;
+  color: #282828;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -459,6 +466,7 @@ moe .color-dark .left-side ul li a:hover {
   top: 0;
   z-index: 2;
   background: #282828;
+  background: pink;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -475,6 +483,7 @@ moe .color-dark .left-side ul li a:hover {
   border-style: solid;
   border-width: 0 200px 100vh 0;
   border-color: transparent #282828 transparent transparent;
+  border-color: transparent pink transparent transparent;
   position: absolute;
   left: -200px;
   top: 0;
@@ -1775,8 +1784,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .logos ul li figure {
   display: block;
-  height: 80px;
-  margin: 30px 0;
+  height: 170px;
   opacity: 0.6;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -1787,7 +1795,6 @@ moe .color-dark .left-side ul li a:hover {
 }
 .logos ul li figure img {
   display: none;
-  height: 80px;
   position: absolute;
   left: 50%;
   top: 0;
